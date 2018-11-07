@@ -69,7 +69,7 @@ def webcam_face_recognizer(database):
     global ready_to_detect_identity
 
     cv2.namedWindow("preview")
-    vc = cv2.VideoCapture(0)
+    vc = cv2.VideoCapture(1)
 
     face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
     
